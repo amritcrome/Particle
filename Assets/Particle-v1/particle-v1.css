@@ -190,7 +190,7 @@ p:last-child:after {content:"\2766";font-size:150%;padding-left:10px;float:right
 [class*="-fr"],.cass-fr{float:right}
 [class*="-oh"],.cass-oh{overflow:hidden}
 [class*="-oa"]:hover{overflow:auto},.cass-oa:hover{overflow:auto},[class*="-oa"],.cass-oa{ms-overflow-style:none;overflow:-moz-scrollbars-none;}.cass-oa::-webkit-scrollbar{display:none}[class*="-oa"]::-webkit-scrollbar{display:none;}
-[class*="-pa"],.cass-pa{position:absolute}
+[class*="-paa"],.cass-pa{position:absolute}
 [class*="-pr"],.cass-pr{position:relative}
 [class*="-pf"],.cass-pf{position:fixed}
 [class*="-db"],.cass-db{display:block}
