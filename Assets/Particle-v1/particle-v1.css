@@ -238,7 +238,7 @@ ol,ul,li{}
 [class^="cor-menu"] li a:hover,[class*=" cor-menu"] li a:hover{color:green;color:var(--particle-linkcolorhover);background:#eeeeee;}
 [class^="cor-menu"] li span,[class*=" cor-menu"] li span{font-size:20px;line-height:1;margin-right:20px;vertical-align:middle}
 
-[class^="cor-menu"] .cor-active a,[class*=" cor-menu"] .cor-active a{border-bottom:3px solid;border-color:var(--particle-linkcolor)}
+[class^="cor-menu"] .cor-active a,[class*=" cor-menu"] .cor-active a{border-left:3px solid;border-color:var(--particle-linkcolor)}
 [class^="cor-menu"] .cor-active:hover,[class*=" cor-menu"] .cor-active:hover a{border-color:var(--particle-linkcolorhover)}
 .cor-menu-light ol,.cor-menu-light ul{font-family:Segoe Ui light;font-weight:300}
 .cor-menu-list ol{overflow-x:auto},.cor-menu-list ul:hover{overflow-x:auto}
