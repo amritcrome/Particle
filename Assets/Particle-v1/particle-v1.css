@@ -580,6 +580,17 @@ ol,ul,li{}
 .ai-clock-o:before {
   content: "\31";
 }
+/* CCCard */
+.cc-card{width:300px;background:#ddd}
+.cc-header{font-size:20px;padding:16px;background:var(--particle-linkcolor)}
+.cc-Image{}
+.cc-content{padding:8px}
+.cc-footer{padding:16px;background:var(--particle-linkcolor)}
+
+
+
+
+
 
 /* general classes */
 .round{border-radius:100000px}
