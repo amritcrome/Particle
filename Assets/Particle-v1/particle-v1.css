@@ -580,7 +580,7 @@ ol,ul,li{}
   content: "\31";
 }
 /* CCCard */
-.cc-card{background:#ddd}
+.cc-card{background:#ddd;margin-bottom:8px}
 .cc-header{font-size:20px;padding:8px;background:var(--particle-linkcolor)}
 .cc-image{max-height:130px;transition:0.8s linear;overflow:hidden}
 .cc-card:hover .cc-image{max-height:380px}
