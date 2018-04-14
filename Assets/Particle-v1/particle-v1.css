@@ -1,4 +1,4 @@
-/* Github Installed*/
+/* Github Installed  1*/
 /* dropbox complete von0.6*/
 /* custom linkcolor linkhover menu active tab; boxin-background;*/
 /*   browser reset      */
@@ -235,12 +235,10 @@ ol,ul,li{}
 
 [class^="cor-menu"] li,[class*=" cor-menu"] li{margin:0;display:block;}
 
-[class^="cor-menu"] li:hover,[class*=" cor-menu"] li:hover{}
-
 [class^="cor-menu"] li a,[class*=" cor-menu"] li a{padding:14px 24px;display:block;color:#212121}
 
 [class^="cor-menu"] li a:hover,[class*=" cor-menu"] li a:hover{color:green;color:var(--particle-linkcolorhover);background:#eeeeee;}
-[class^="cor-menu"] li span,[class*=" cor-menu"] li span{font-size:20px;line-height:1;margin-right:20px;vertical-align:middle}
+[class^="cor-menu"] li span,[class*=" cor-menu"] li span{font-size:20px;line-height:1;margin-right:20px}
 
 [class^="cor-menu"] .cor-active a,[class*=" cor-menu"] .cor-active a{border-left:3px solid;border-color:var(--particle-linkcolor)}
 [class^="cor-menu"] .cor-active:hover a,[class*=" cor-menu"] .cor-active:hover a{border-color:var(--particle-linkcolorhover)}
@@ -406,6 +404,7 @@ ol,ul,li{}
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'Anhancericons' !important;
   speak: none;
+  vertical-align:-.150em;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -581,11 +580,12 @@ ol,ul,li{}
   content: "\31";
 }
 /* CCCard */
-.cc-card{width:300px;background:#ddd}
-.cc-header{font-size:20px;padding:16px;background:var(--particle-linkcolor)}
-.cc-Image{}
-.cc-content{padding:8px}
-.cc-footer{padding:16px;background:var(--particle-linkcolor)}
+.cc-card{width:380px;background:#ddd}
+.cc-header{font-size:20px;padding:8px;background:var(--particle-linkcolor)}
+.cc-image{max-height:130px;transition:0.8s linear;overflow:hidden}
+.cc-card:hover .cc-image{max-height:380px}
+.cc-content{padding:8px;font-size:16px}
+.cc-footer{padding:8px;background:var(--particle-linkcolor)}
 
 
 
