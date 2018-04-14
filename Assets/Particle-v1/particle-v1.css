@@ -584,7 +584,7 @@ ol,ul,li{}
 .cc-header{font-size:20px;padding:8px;background:var(--particle-linkcolor)}
 .cc-image{max-height:130px;transition:0.8s linear;overflow:hidden}
 .cc-card:hover .cc-image{max-height:380px}
-.cc-content{padding:8px;font-size:16px}
+.cc-content{padding:8px;}
 .cc-footer{padding:8px;background:var(--particle-linkcolor)}
 
 
