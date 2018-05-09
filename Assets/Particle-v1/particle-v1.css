@@ -623,7 +623,7 @@ ol,ul,li{}
 .round{border-radius:100000px}
 .center{display:block;margin:0 auto}
 .active{}
-.disabled{cursor:not-allowed}
+.disabled{cursor:not-allowed;color:--particle-linkcolorhover}
 .count{}
 .cr-p,.btn{cursor:pointer}
 
