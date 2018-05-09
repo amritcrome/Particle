@@ -615,13 +615,16 @@ ol,ul,li{}
 
 /* Components */
 .lbl a{padding:4px 8px;margin:2px;background:#e5e5e5;text-transform:uppercase;border-radius:2px;text-decoration:none;font-size:14px;display:inline-block}
+.brdcrum{padding:16px;background:#eeeeee;color:--particle-linkcolor;font-size:14px;font-weight:600;font-family:Arial;}
+.brdcrum a{color:--particle-linkcolor;margin:12px}
+.brdcrum a:hover{color:--particle-linkcolorhover}
 
 /* general classes */
 .round{border-radius:100000px}
 .center{display:block;margin:0 auto}
 .active{}
 .disabled{cursor:not-allowed}
-
+.count{}
 .cr-p,.btn{cursor:pointer}
 
 
