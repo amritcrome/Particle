@@ -258,7 +258,7 @@ ol,ul,li{}
 .btn-lg{font-size:20px;padding:14px 48px;}.btn-sm{font-size:14px;padding:7px 18px;}.btn-xs{padding:3px 5px;font-size:14px}
 .btn.active{background:orange;background:var(--particle-linkcolor);border-color:orange;border-color:var(--particle-linkcolor);color:#fff}
 .btn:hover.active{background:#fff;color:orange;color:var(--particle-linkcolor)}
-.btn:active{box-shadow:inset 0px 3px 4px #000}
+.btn:active{box-shadow:inset 0px 3px 8px #5a5959}
 .btn:active.active{box-shadow:inset 0px 3px 4px #000}
 /*
 [class^="cor-btn"] button,[class*=" cor-btn"] button,.cor-btn button{    color: #fff;
@@ -343,6 +343,23 @@ ol,ul,li{}
 .box-30p-tab{width:30%}
 .box-40p-tab{width:40%}
 .box-60p-tab{width:60%}}
+
+@media(max-width:640px){.box-full-mob,.box-100p-mob{width:100%}
+.box-2-mob,.box-half-mob,.box-50p-mob{width:50%}
+.box-3-mob{width:33.3333%}
+.box-4-mob,.box-25p-mob{width:25%}
+.box-5-mob,.box-20p-mob{width:20%}
+.box-6-mob{width:16.6666%}
+.box-7-mob{width:14.2857%}
+.box-8-mob{width:12.5%}
+.box-9-mob{width:11.1111%}
+.box-10-mob,.box-10p-mob{width:10%}
+
+.box-70p-mob{width:70%}
+.box-75p-mob{width:75%}
+.box-30p-mob{width:30%}
+.box-40p-mob{width:40%}
+.box-60p-mob{width:60%}}
 
 /*
 @media (min-width:480px){xs}
