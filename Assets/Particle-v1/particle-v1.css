@@ -614,7 +614,7 @@ ol,ul,li{}
 
 
 /* Components */
-.lbl a{padding:4px 8px;margin:2px;background:#e5e5e5;text-transform:uppercase;border-radius:2px;text-decoration:none;font-size:14px}
+.lbl a{padding:4px 8px;margin:2px;background:#e5e5e5;text-transform:uppercase;border-radius:2px;text-decoration:none;font-size:14px;display:inline-block}
 
 /* general classes */
 .round{border-radius:100000px}
