@@ -244,8 +244,8 @@ ol,ul,li{}
 [class^="cor-menu"] li a:hover,[class*=" cor-menu"] li a:hover{color:green;color:var(--particle-linkcolorhover);background:#eeeeee;}
 [class^="cor-menu"] li span,[class*=" cor-menu"] li span{font-size:20px;line-height:1;margin-right:20px}
 
-[class^="cor-menu"] .cor-active a,[class*=" cor-menu"] .cor-active a{border-left:3px solid;border-color:var(--particle-linkcolor)}
-[class^="cor-menu"] .cor-active:hover a,[class*=" cor-menu"] .cor-active:hover a{border-color:var(--particle-linkcolorhover)}
+[class^="cor-menu"] .active a,[class*=" cor-menu"] .active a{border-left:3px solid;border-color:var(--particle-linkcolor)}
+[class^="cor-menu"] .active:hover a,[class*=" cor-menu"] .active:hover a{border-color:var(--particle-linkcolorhover)}
 .cor-menu-light ol,.cor-menu-light ul{font-family:Segoe Ui light;font-weight:300}
 .cor-menu-list ol{overflow-x:auto},.cor-menu-list ul:hover{overflow-x:auto}
 .cor-menu-list ol,.cor-menu-list ul{margin:0;padding:0;white-space:nowrap;-ms-overflow-style:none}.cor-menu-list ol::-webkit-scrollbar,.cor-menu-list ul::-webkit-scrollbar{display:none;}.cor-menu-list li{display:inline-block}
@@ -623,7 +623,7 @@ ol,ul,li{}
 .round{border-radius:100000px}
 .center{display:block;margin:0 auto}
 .active{}
-.disabled{cursor:not-allowed;color:--particle-linkcolorhover}
+.disabled{cursor:not-allowed;opacity:0.6}
 .count{}
 .cr-p,.btn{cursor:pointer}
 
@@ -632,6 +632,7 @@ ol,ul,li{}
 .hdg{color:black;font-weight:500;font-size:110%;margin-bottom:-1px}
 .sub-hdg{color:#7e7979;font-size:85%;margin-bottom:8px}
 .sub-txt{color:#555;font-size:75%;}
+.normaltxt{font-size:90%}
 
 .Pad-24px{padding:24px}
 .Pad-l24px{padding-left:24px}
