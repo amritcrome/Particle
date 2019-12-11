@@ -1,4 +1,5 @@
 <h2>Particle</h2>
-<p><b>Particle</b> - The Orange library is a css library to make interactive websites with ease.</p>
+<p><b>Particle - The Orange library</b> is a css library to make interactive websites with ease.</p>
+<a href="https://particle.amritcrome.com">Particle Documentation</a>
 <h3>Copyright and license</h3>
-<p>Code and documentation copyright 2017 <a href="https://facebook.com/cromeamrit">Amrit</a>. Code released under the <a href="https://github.com/amritcrome/Particle/blob/master/LICENSE">MIT License</a>.</p>
+<p>Code and documentation copyright 2017 <a href="https://amritcrome.com">Amrit Crome</a>. Code released under the <a href="https://github.com/amritcrome/Particle/blob/master/LICENSE">MIT License</a>.</p>
