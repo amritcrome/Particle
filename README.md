@@ -1,4 +1,4 @@
-<h2>Particle</h2>
+#Particle
 <p><b>Particle - The Orange library</b> is a css library to make interactive websites with ease.</p>
 <p>To learn to use the particle library visit the website below</p>
 <a href="https://particle.amritcrome.com">Particle Documentation</a>
