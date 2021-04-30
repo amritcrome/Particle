@@ -1592,10 +1592,10 @@ color: #1565C0;position:relative}
 content: "\00F7";top:6px;left:18px;position:absolute;font-size:18px}
 
 /* Colors Material */
-.bg-glass{background: rgba(0,0,0,0.8);
+.bg-glass{background: rgb(255 255 255 / 80%);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);}
-@media (prefers-color-scheme: dark){.bg-glass{background: rgb(255 255 255 / 80%);}}
+@media (prefers-color-scheme: dark){.bg-glass{background: rgba(0,0,0,0.8)}}
 .bg-red1 {
 background:#ffcdd2
 }
