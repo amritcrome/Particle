@@ -1435,7 +1435,6 @@ top:42px;right:0
 
 .header {
 width:100%;
-padding:24px 0px
 }
 .header .hdg{font-size: 1.65rem;}
 @media (min-width: 768px){.header .hdg{font-size : 3.25rem;}}
